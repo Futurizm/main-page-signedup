@@ -83,11 +83,26 @@ body {
 	line-height: normal;
 }
 
+.header__button__block {
+	display: flex;
+	gap: 24px;
+}
+
+.header__profile {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	color: #4e9fff;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19.5px;
+}
+
 .header__signup {
 	display: flex;
 	align-items: center;
 	gap: 6px;
-	background: #4e9fff;
+	background: #ff4e4e;
 	padding: 12px 44px;
 	border-radius: 12px;
 	font-size: 16px;
@@ -120,6 +135,12 @@ body {
 	padding: 24px;
 }
 
+.filter__block__1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
 .grid__section__header {
 	color: #000;
 	font-size: 48px;
@@ -128,6 +149,54 @@ body {
 	line-height: normal;
 	margin-bottom: 36px;
 	padding-left: 20px;
+}
+
+.filter__block__1__buttons__block {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.filter__block__1__button {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	background-color: #f5f5f5;
+	padding: 12px 24px;
+	color: #4e9fff;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19.5px;
+	border-radius: 12px;
+}
+
+.filter__block__2 {
+	margin-bottom: 24px;
+}
+
+.filter__block__2__buttons__block__1__button {
+	display: flex;
+	gap: 12px;
+	padding-left: 24px;
+}
+
+.filter__block__2__button {
+	font-family: "Inter", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 16px;
+	color: #454243;
+	border: 2px solid #ececec;
+	padding: 8px 16px; 
+	border-radius: 12px;
+}
+
+.filter__block__2__button:nth-child(4) {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	color: #fff;
+	background-color: #4e9fff;
 }
 
 .grid__section__cards {

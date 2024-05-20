@@ -14,10 +14,16 @@
                     <img class="header__logo__img" src="./assets/header/header_logo.svg" alt="">
                     <h2 class="header__logo__text">Выпускники колледжа</h2>
                 </div>
-                <button class="header__signup">
-                    <img class="header__signup__img" src="./assets/header/signup_logo.svg" alt="">
-                    Вход
-                </button>
+                <div class="header__button__block">
+                    <button class="header__profile">
+                        <img src="./assets/header/profile_logo.svg" alt="">
+                        Профиль
+                    </button>
+                    <button class="header__signup">
+                        <img class="header__signup__img" src="./assets/header/logout_logo.svg" alt="">
+                        Вход
+                    </button>
+                </div>
             </div>
         </header>
         <main class="main">
@@ -28,7 +34,32 @@
             </section>
             <section class="grid__section">
                 <div class="grid__section__container _container">
-                    <h1 class="grid__section__header">Список выпускников</h1>
+                    <div class="grid__filter__block filter__block">
+                        <div class="filter__block__1">
+                            <h1 class="grid__section__header">Список выпускников</h1>
+                            <div class="filter__block__1__buttons__block">
+                                <button class="filter__block__1__button">
+                                    <img src="./assets/main/icons/arrows.svg" alt="">
+                                    Сортировка
+                                </button>
+                                <button class="filter__block__1__button">
+                                    <img src="./assets/main/icons/tools.svg" alt="">
+                                    Фильтры
+                                </button>
+                            </div>
+                        </div>
+                        <div class="filter__block__2">
+                            <div class="filter__block__2__buttons__block__1__button">
+                                <button class="filter__block__2__button">Сортировка</button>
+                                <button class="filter__block__2__button">Специализация</button>
+                                <button class="filter__block__2__button">Год</button>
+                                <button class="filter__block__2__button">
+                                    <img src="./assets/main/icons/cross.svg" alt="">
+                                    Очистить
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                     <div class="grid__section__cards cards">
                         <div class="cards__item">
                             <div class="cards__item__container">
